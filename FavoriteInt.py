@@ -8,5 +8,5 @@ try:
   else:
     print(favInt, "is odd")
 
-except:
+except ValueError:
   print("That is not a number")
